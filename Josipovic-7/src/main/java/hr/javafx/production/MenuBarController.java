@@ -1,4 +1,4 @@
-package hr.javafx.production.controller;
+package hr.javafx.production;
 
 import hr.javafx.production.HelloApplication;
 import javafx.fxml.FXMLLoader;

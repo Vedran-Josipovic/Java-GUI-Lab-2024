@@ -2,7 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.production.controller.ItemSearchController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.javafx.production.ItemSearchController">
     <fx:include source="menuBar.fxml" />
    <GridPane layoutX="-1.0" layoutY="25.0" prefHeight="374.0" prefWidth="584.0">
      <columnConstraints>
@@ -39,18 +39,15 @@
                <Insets right="5.0" />
             </GridPane.margin>
          </Label>
-         <TextField scaleY="1.35" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <TextField fx:id="itemNameTextField" scaleY="1.35" GridPane.columnIndex="1" GridPane.rowIndex="1">
 
          </TextField>
-         <ChoiceBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
-
-         </ChoiceBox>
          <Label text="Item Search" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
             <font>
                <Font name="System Bold" size="24.0" />
             </font>
          </Label>
-         <TableView prefHeight="200.0" prefWidth="911.0" GridPane.columnSpan="2" GridPane.rowIndex="4" GridPane.rowSpan="2">
+         <TableView fx:id="itemTableView" prefHeight="200.0" prefWidth="911.0" GridPane.columnSpan="2" GridPane.rowIndex="4" GridPane.rowSpan="2">
            <columns>
              <TableColumn prefWidth="75.0" text="Name" />
              <TableColumn prefWidth="75.0" text="Category" />
@@ -64,7 +61,8 @@
                <Insets right="-17.0" top="5.0" />
             </GridPane.margin>
          </TableView>
-         <Button mnemonicParsing="false" text="Search" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         <Button mnemonicParsing="false" onAction="#itemSearch" text="Search" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         <ComboBox fx:id="itemCategoryComboBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       </children>
    </GridPane>
 </AnchorPane>

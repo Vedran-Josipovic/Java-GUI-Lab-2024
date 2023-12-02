@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1"
-      xmlns="http://javafx.com/javafx/21" fx:controller="hr.javafx.production.controller.MainScreenController">
+      xmlns="http://javafx.com/javafx/21" fx:controller="hr.javafx.production.MainScreenController">
     <children>
         <GridPane prefHeight="417.0" prefWidth="569.0">
             <columnConstraints>
