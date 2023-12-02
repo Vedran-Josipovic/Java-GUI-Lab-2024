@@ -10,7 +10,7 @@ public class MenuBarController {
     public void showItemSearchScreen() {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("itemSearch.fxml"));
         try {
-            Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
             HelloApplication.getMainStage().setTitle("Item Search");
             HelloApplication.getMainStage().setScene(scene);
             HelloApplication.getMainStage().show();
@@ -21,7 +21,7 @@ public class MenuBarController {
     public void showCategorySearchScreen() {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("categorySearch.fxml"));
         try {
-            Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
             HelloApplication.getMainStage().setTitle("Category Search");
             HelloApplication.getMainStage().setScene(scene);
             HelloApplication.getMainStage().show();
@@ -32,7 +32,7 @@ public class MenuBarController {
     public void showFactorySearchScreen() {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("factorySearch.fxml"));
         try {
-            Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
             HelloApplication.getMainStage().setTitle("Factory Search");
             HelloApplication.getMainStage().setScene(scene);
             HelloApplication.getMainStage().show();
@@ -43,7 +43,7 @@ public class MenuBarController {
     public void showStoreSearchScreen() {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("storeSearch.fxml"));
         try {
-            Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
             HelloApplication.getMainStage().setTitle("Store Search");
             HelloApplication.getMainStage().setScene(scene);
             HelloApplication.getMainStage().show();

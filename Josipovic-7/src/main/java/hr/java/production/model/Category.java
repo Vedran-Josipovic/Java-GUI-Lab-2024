@@ -43,8 +43,9 @@ public class Category extends NamedEntity implements Serializable {
         return Objects.hash(super.hashCode(), getDescription());
     }
 
+    //Changed for the purposes of writing in combobox in JavaFx
     @Override
     public String toString() {
-        return "Category{" + "description='" + description + '\'' + ", name='" + name + '\'' + '}';
+        return name;
     }
 }
