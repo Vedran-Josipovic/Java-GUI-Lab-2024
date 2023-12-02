@@ -49,13 +49,13 @@
          </Label>
          <TableView fx:id="itemTableView" prefHeight="200.0" prefWidth="911.0" GridPane.columnSpan="2" GridPane.rowIndex="4" GridPane.rowSpan="2">
            <columns>
-             <TableColumn prefWidth="75.0" text="Name" />
-             <TableColumn prefWidth="75.0" text="Category" />
-               <TableColumn prefWidth="75.0" text="Width" />
-               <TableColumn prefWidth="75.0" text="Height" />
-               <TableColumn prefWidth="75.0" text="Length" />
-               <TableColumn prefWidth="109.0" text="Production Cost" />
-               <TableColumn minWidth="0.0" prefWidth="116.0" text="Selling Price" />
+             <TableColumn fx:id="itemNameTableColumn" prefWidth="75.0" text="Name" />
+             <TableColumn fx:id="itemCategoryTableColumn" prefWidth="75.0" text="Category" />
+               <TableColumn fx:id="itemWidthTableColumn" prefWidth="75.0" text="Width" />
+               <TableColumn fx:id="itemHeightTableColumn" prefWidth="75.0" text="Height" />
+               <TableColumn fx:id="itemLengthTableColumn" prefWidth="75.0" text="Length" />
+               <TableColumn fx:id="itemProductionCostTableColumn" prefWidth="109.0" text="Production Cost" />
+               <TableColumn fx:id="itemSellingPriceTableColumn" minWidth="0.0" prefWidth="116.0" text="Selling Price" />
            </columns>
             <GridPane.margin>
                <Insets right="-17.0" top="5.0" />

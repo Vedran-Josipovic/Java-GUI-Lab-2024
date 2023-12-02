@@ -7,6 +7,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
@@ -20,6 +21,24 @@ public class ItemSearchController {
     @FXML
     private TableView<Item> itemTableView;
 
+    @FXML
+    private TableColumn<Item, String> itemNameTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemCategoryTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemWidthTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemHeightTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemLengthTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemProductionCostTableColumn;
+    @FXML
+    private TableColumn<Item, String> itemSellingPriceTableColumn;
+
+    public void initialize(){
+
+    }
 
     public void itemSearch() {
         List<Category> categories = FileUtils.inputCategories();
