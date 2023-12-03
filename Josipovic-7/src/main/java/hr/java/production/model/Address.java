@@ -69,6 +69,13 @@ public class Address implements Serializable {
         return "Address{" + "street='" + street + '\'' + ", houseNumber='" + houseNumber + '\'' + ", city=" + city + '}';
     }
 
+    public String formattedToString() {
+        return street + " " + houseNumber + ", " + city.getPostalCode() + " " + city.getName();
+    }
+
+
+
+
     /**
      * Builder class for Address. Allows for the creation of Address instances using method chaining.
      */

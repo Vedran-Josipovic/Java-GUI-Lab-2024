@@ -39,7 +39,7 @@
                     <Insets right="5.0" />
                 </GridPane.margin>
             </Label>
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <TextField fx:id="factoryNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1">
 
             </TextField>
             <Label text="Factory Search" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="TOP">
@@ -47,24 +47,24 @@
                     <Font name="System Bold" size="24.0" />
                 </font>
             </Label>
-            <TableView prefHeight="351.0" prefWidth="229.0" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.rowSpan="2">
+            <TableView fx:id="factoryTableView" prefHeight="351.0" prefWidth="229.0" GridPane.columnSpan="2" GridPane.rowIndex="5" GridPane.rowSpan="2">
                 <columns>
-                    <TableColumn prefWidth="242.0" text="Name" />
-                    <TableColumn minWidth="0.0" prefWidth="187.0" text="Address" />
-               <TableColumn prefWidth="370.0" text="Items" />
+                    <TableColumn fx:id="factoryNameTableColumn" prefWidth="161.0" text="Name" />
+                    <TableColumn fx:id="factoryAddressTableColumn" minWidth="0.0" prefWidth="191.0" text="Address" />
+               <TableColumn fx:id="factoryItemsTableColumn" prefWidth="447.0" text="Items" />
                 </columns>
                 <GridPane.margin>
                     <Insets top="5.0" />
                 </GridPane.margin>
             </TableView>
-            <Button mnemonicParsing="false" text="Search" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
-            <TextField prefHeight="17.0" prefWidth="33.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#factorySearch" text="Search" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <TextField fx:id="factoryAddressTextField" prefHeight="17.0" prefWidth="33.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          <Label text="Enter factory items:" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
             <GridPane.margin>
                <Insets right="5.0" />
             </GridPane.margin>
          </Label>
-         <TextField prefHeight="25.0" prefWidth="394.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         <TextField fx:id="factoryItemsTextField" prefHeight="25.0" prefWidth="394.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
         </children>
     </GridPane>
 </AnchorPane>

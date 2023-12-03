@@ -6,10 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -22,6 +19,11 @@ public class InventoryAnalyzer {
     private static final Logger logger = LoggerFactory.getLogger(InventoryAnalyzer.class);
 
 
+    public static <T extends NamedEntity> String getNamesAsString(Collection<T> entityCollection){
+        return entityCollection.stream()
+                .map(NamedEntity::getName)
+                .collect(Collectors.joining(", "));
+    }
 
 
 

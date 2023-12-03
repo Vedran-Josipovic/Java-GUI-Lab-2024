@@ -4,15 +4,17 @@ import hr.java.production.model.Category;
 import hr.java.production.model.Factory;
 import hr.java.production.model.Item;
 import hr.java.production.utility.FileUtils;
+import hr.java.production.utility.InventoryAnalyzer;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class FactorySearchController {
     @FXML
@@ -33,19 +35,27 @@ public class FactorySearchController {
     private TableColumn<Factory, String> factoryItemsTableColumn;
 
     public void initialize() {
-        itemNameTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getName()));
-        itemCategoryTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getCategory().getName()));
-        itemWidthTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getWidth().toString()));
-        itemHeightTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getHeight().toString()));
-        itemLengthTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getLength().toString()));
-        itemProductionCostTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getProductionCost().toString()));
-        itemSellingPriceTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getSellingPrice().toString()));
+        factoryNameTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getName()));
+        factoryAddressTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getAddress().formattedToString()));
+        factoryItemsTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(InventoryAnalyzer.getNamesAsString(param.getValue().getItems())));
+    }
 
-        Category allCategories = new Category(999L, "Any category", "Any");
+    public void factorySearch() {
         List<Category> categories = FileUtils.inputCategories();
-        categories.add(allCategories);
-        itemCategoryComboBox.setItems(FXCollections.observableArrayList(categories));
-        itemCategoryComboBox.getSelectionModel().selectLast();
+        List<Item> items = FileUtils.inputItems(categories);
+        List<Factory> factories = FileUtils.inputFactories(items);
+
+        String factoryName = factoryNameTextField.getText();
+        String factoryAddress = factoryAddressTextField.getText();
+        String factoryItems = factoryItemsTextField.getText();
+
+        Stream<Factory> filteredStream = factories.stream();
+
+        filteredStream = filteredStream.filter(f -> f.getName().toLowerCase().contains(factoryName.toLowerCase()));
+        filteredStream = filteredStream.filter(f -> f.getAddress().formattedToString().toLowerCase().contains(factoryAddress.toLowerCase()));
+        filteredStream = filteredStream.filter(f -> InventoryAnalyzer.getNamesAsString(f.getItems()).toLowerCase().contains(factoryItems.toLowerCase()));
+
+        factoryTableView.setItems(FXCollections.observableArrayList(filteredStream.collect(Collectors.toList())));
     }
 
 }
