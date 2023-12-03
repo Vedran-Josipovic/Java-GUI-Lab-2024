@@ -2312,3 +2312,272 @@
 2023-12-02 22:08:02,762 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
 2023-12-02 22:08:02,762 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
 2023-12-02 22:08:02,762 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:07,167 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:09,168 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:09,176 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:09,176 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:09,177 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:09,177 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:09,177 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:09,177 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:09,178 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:09,179 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:17,293 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:17,294 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:17,295 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:22,898 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:22,900 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:22,901 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:24,346 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:24,347 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:24,348 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:26,812 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:26,813 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:26,814 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 10:33:28,838 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 10:33:28,838 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 10:33:28,839 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 10:33:28,839 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 10:33:28,839 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 10:33:28,839 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 10:33:28,840 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 10:33:28,840 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 10:33:28,840 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:52:58,684 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:01,731 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:01,737 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:01,737 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:01,738 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:01,738 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:01,738 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:01,738 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:01,739 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:05,041 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:05,042 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:05,042 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:05,042 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:05,042 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:05,043 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:05,043 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:05,043 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:05,043 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:05,043 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:05,044 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:05,044 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:05,044 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:05,044 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:05,044 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:08,507 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:08,507 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:08,508 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:08,509 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:08,509 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:08,509 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:08,509 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:10,324 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:10,324 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:10,324 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:10,324 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:10,324 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:10,325 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:10,325 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:10,325 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:10,325 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:10,325 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:10,326 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:10,326 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:10,326 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:10,326 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:10,326 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:12,481 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:12,481 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:12,481 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:12,482 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:14,612 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:14,614 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:16,663 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:16,663 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:16,663 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:16,664 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:16,665 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:16,665 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:16,665 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:16,666 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:16,666 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:17,939 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:17,939 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:17,940 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:17,941 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:17,941 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:17,941 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:17,941 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:17,941 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:19,583 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:19,584 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pizza: 880
+2023-12-03 18:53:19,584 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Pizza: 3.52
+2023-12-03 18:53:19,584 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Pileći medaljon: 2228
+2023-12-03 18:53:19,584 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Pileći medaljon: 3.38
+2023-12-03 18:53:19,584 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Hawaiian Pizza: 1430
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 15% discount) for Hawaiian Pizza: 6.63
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Buffalo Chicken Wings: 1782
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 12% discount) for Buffalo Chicken Wings: 3.70
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Supreme Pizza: 1760
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 10% discount) for Supreme Pizza: 10.08
+2023-12-03 18:53:19,585 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Barbecue Chicken Pizza: 1540
+2023-12-03 18:53:19,586 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 20% discount) for Barbecue Chicken Pizza: 6.16
+2023-12-03 18:53:19,586 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:106] Kilocalories in Spicy Pepperoni Pizza: 1210
+2023-12-03 18:53:19,586 INFO [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:107] Price (with 18% discount) for Spicy Pepperoni Pizza: 5.86
+2023-12-03 18:53:25,102 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:28,612 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:29,197 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:29,383 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:29,585 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:29,862 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:31,564 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:32,952 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:34,400 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:36,820 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:37,009 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:53:41,884 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:39,033 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:39,265 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:48,860 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:52,022 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:56,643 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:55:59,363 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:03,145 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:03,968 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:04,142 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:04,321 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:30,777 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:31,050 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:31,232 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:31,426 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:32,940 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:56:34,164 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:17,444 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:21,452 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:25,292 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:32,969 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:35,547 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:38,010 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:44,205 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:52,000 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:57:59,957 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:58:01,711 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:58:05,249 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:58:10,658 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:58:13,019 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.
+2023-12-03 18:58:14,055 WARN [JavaFX Application Thread] h.j.p.u.FileUtils [FileUtils.java:319] Entered category [Technical equipment] has already been added. Input ignored.

@@ -1,6 +1,7 @@
 package hr.javafx.production;
 
 import hr.java.production.model.Category;
+import hr.java.production.model.Factory;
 import hr.java.production.model.Item;
 import hr.java.production.utility.FileUtils;
 import javafx.beans.property.ReadOnlyStringWrapper;
@@ -11,33 +12,25 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class ItemSearchController {
+public class FactorySearchController {
     @FXML
-    private TextField itemNameTextField;
+    private TextField factoryNameTextField;
     @FXML
-    private ComboBox<Category> itemCategoryComboBox;
+    private TextField factoryAddressTextField;
     @FXML
-    private TableView<Item> itemTableView;
+    private TextField factoryItemsTextField;
 
     @FXML
-    private TableColumn<Item, String> itemNameTableColumn;
+    private TableView<Factory> factoryTableView;
+
     @FXML
-    private TableColumn<Item, String> itemCategoryTableColumn;
+    private TableColumn<Factory, String> factoryNameTableColumn;
     @FXML
-    private TableColumn<Item, String> itemWidthTableColumn;
+    private TableColumn<Factory, String> factoryAddressTableColumn;
     @FXML
-    private TableColumn<Item, String> itemHeightTableColumn;
-    @FXML
-    private TableColumn<Item, String> itemLengthTableColumn;
-    @FXML
-    private TableColumn<Item, String> itemProductionCostTableColumn;
-    @FXML
-    private TableColumn<Item, String> itemSellingPriceTableColumn;
+    private TableColumn<Factory, String> factoryItemsTableColumn;
 
     public void initialize() {
         itemNameTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getName()));
@@ -53,23 +46,6 @@ public class ItemSearchController {
         categories.add(allCategories);
         itemCategoryComboBox.setItems(FXCollections.observableArrayList(categories));
         itemCategoryComboBox.getSelectionModel().selectLast();
-    }
-
-
-    public void itemSearch() {
-        List<Category> categories = FileUtils.inputCategories();
-        List<Item> items = FileUtils.inputItems(categories);
-
-        String itemName = itemNameTextField.getText();
-        Category selectedCategory = itemCategoryComboBox.getValue();
-
-        Stream<Item> filteredStream = items.stream();
-        filteredStream = filteredStream.filter(i -> i.getName().toLowerCase().contains(itemName.toLowerCase()));
-        if (selectedCategory != null && !selectedCategory.getName().equals("Any category")) {
-            filteredStream = filteredStream.filter(i -> i.getCategory().equals(selectedCategory));
-        }
-
-        itemTableView.setItems(FXCollections.observableArrayList(filteredStream.collect(Collectors.toList())));
     }
 
 }
