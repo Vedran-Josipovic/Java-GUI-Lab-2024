@@ -30,6 +30,11 @@
                     <MenuItem mnemonicParsing="false" onAction="#showStoreSearchScreen" text="Search" />
                 </items>
             </Menu>
+         <Menu mnemonicParsing="false" text="Advanced view">
+           <items>
+             <MenuItem mnemonicParsing="false" onAction="#showAdvancedViewScreen" text="View" />
+           </items>
+         </Menu>
         </menus>
       <padding>
          <Insets bottom="7.0" top="7.0" />

@@ -82,7 +82,7 @@ public class InventoryReportPrinter {
     public static void printCheapestAndPriciestItemsByKey(Map<?, List<Item>> itemsPerKeyMap) {
         itemsPerKeyMap.forEach((key, valueItems) -> {
             valueItems.sort(new ProductionSorter());
-            Item mostExpensive = valueItems.getLast(), leastExpensive = valueItems.getFirst();
+            Item mostExpensive = valueItems.get(valueItems.size() - 1), leastExpensive = valueItems.get(0);
 
             String mostExpensiveString = mostExpensive.getName() + " [" + mostExpensive.getDiscountedSellingPrice() + "]";
             String leastExpensiveString = leastExpensive.getName() + " [" + leastExpensive.getDiscountedSellingPrice() + "]";

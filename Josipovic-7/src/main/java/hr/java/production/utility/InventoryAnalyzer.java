@@ -84,7 +84,7 @@ public class InventoryAnalyzer {
      * @return The factory with the largest volume of an item.
      */
     public static Factory findFactoryWithLargestVolumeOfAnItem(List<Factory> factories) {
-        Factory bestFactory = factories.getFirst();
+        Factory bestFactory = factories.get(0);
         BigDecimal largestVolume = BigDecimal.valueOf(0);
         for (Factory f : factories) {
             for (Item i : f.getItems()) {
@@ -109,7 +109,7 @@ public class InventoryAnalyzer {
      * defined in the {@code Edible} interface does. Might want to change that in the future.
      */
     public static Store findStoreWithCheapestItem(List<Store> stores) {
-        Store bestStore = stores.getFirst();
+        Store bestStore = stores.get(0);
         BigDecimal cheapestSellingPrice = BigDecimal.valueOf(Double.MAX_VALUE);
 
         for (Store s : stores) {
@@ -133,7 +133,7 @@ public class InventoryAnalyzer {
      * @return The most caloric food item.
      */
     public static Item findMostCaloricFood(List<Item> items) {
-        Item mostCaloric = items.getFirst();
+        Item mostCaloric = items.get(0);
         int maxCalories = -1;
         for (Item i : items) {
             if (i instanceof Edible edible) {
@@ -161,7 +161,7 @@ public class InventoryAnalyzer {
      * @return The highest priced food item.
      */
     public static Item findHighestPricedFood(List<Item> items) {
-        Item mostExpensive = items.getFirst();
+        Item mostExpensive = items.get(0);
         BigDecimal highestPrice = BigDecimal.valueOf(-1);
         for (Item i : items) {
             if (i instanceof Edible edible) {
@@ -189,7 +189,7 @@ public class InventoryAnalyzer {
      * @return The laptop with the shortest warranty.
      */
     public static Item findLaptopWithShortestWarranty(List<Item> items) {
-        Item shortestWarrantyLaptop = items.getFirst();
+        Item shortestWarrantyLaptop = items.get(0);
         Integer minWarranty = Integer.MAX_VALUE;
 
         for (Item i : items) {

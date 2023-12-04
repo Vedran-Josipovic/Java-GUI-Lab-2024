@@ -51,4 +51,16 @@ public class MenuBarController {
             throw new RuntimeException(e);
         }
     }
+
+    public void showAdvancedViewScreen(){
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("advancedView.fxml"));
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
+            HelloApplication.getMainStage().setTitle("Advanced view");
+            HelloApplication.getMainStage().setScene(scene);
+            HelloApplication.getMainStage().show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
