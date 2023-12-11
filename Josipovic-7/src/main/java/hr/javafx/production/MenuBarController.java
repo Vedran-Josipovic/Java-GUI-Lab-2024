@@ -63,4 +63,57 @@ public class MenuBarController {
             throw new RuntimeException(e);
         }
     }
+
+
+    public void showStoreAddScreen() {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("storeAdd.fxml"));
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
+            HelloApplication.getMainStage().setTitle("Adding new Store");
+            HelloApplication.getMainStage().setScene(scene);
+            HelloApplication.getMainStage().show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void showCategoryAddScreen() {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("categoryAdd.fxml"));
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
+            HelloApplication.getMainStage().setTitle("Adding new Category");
+            HelloApplication.getMainStage().setScene(scene);
+            HelloApplication.getMainStage().show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void showItemAddScreen() {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("itemAdd.fxml"));
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
+            HelloApplication.getMainStage().setTitle("Adding new Item");
+            HelloApplication.getMainStage().setScene(scene);
+            HelloApplication.getMainStage().show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void showFactoryAddScreen() {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("factoryAdd.fxml"));
+        try {
+            Scene scene = new Scene(fxmlLoader.load(), HelloApplication.width, HelloApplication.height);
+            HelloApplication.getMainStage().setTitle("Adding new Factory");
+            HelloApplication.getMainStage().setScene(scene);
+            HelloApplication.getMainStage().show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
+
+
 }
