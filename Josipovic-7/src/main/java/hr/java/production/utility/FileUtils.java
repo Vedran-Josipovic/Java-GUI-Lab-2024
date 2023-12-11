@@ -323,5 +323,42 @@ public class FileUtils {
         }
     }
 
+    public static void saveItem(Item newItem) {
+        List<Item> items = deserializeList(FilePath.NEW_ITEMS_FILE_PATH);
+        items.add(newItem);
+
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream((FilePath.NEW_ITEMS_FILE_PATH.getPath())))) {
+            oos.writeObject(items);
+        } catch (IOException e) {
+            String msg = "An IO Exception occurred while writing to the file: " + FilePath.NEW_ITEMS_FILE_PATH + ". This might be due to issues with file permissions, file being in use, or other IO related problems.";
+            logger.error(msg, e);
+        }
+    }
+
+
+    public static void appendItemToFile(Item item) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FilePath.ITEMS.getPath(), true))) {
+            writer.write(formatItemForFile(item));
+            writer.newLine();
+        } catch (IOException e) {
+            String msg = "An IO Exception occurred while writing to the file: " + FilePath.ITEMS + ". This might be due to issues with file permissions, file being in use, or other IO related problems.";
+            logger.error(msg, e);
+        }
+    }
+
+    private static String formatItemForFile(Item item) {
+        return item.getId() + "\n" +
+                item.getName() + "\n" +
+                item.getCategory().getId() + "\n" +
+                item.getWidth() + "\n" +
+                item.getHeight() + "\n" +
+                item.getLength() + "\n" +
+                item.getProductionCost() + "\n" +
+                item.getSellingPrice() + "\n" +
+                item.getDiscount().discountAmount() + "\n" +
+                "";
+    }
+
+
 
 }
