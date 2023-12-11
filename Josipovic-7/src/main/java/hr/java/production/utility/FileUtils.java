@@ -355,8 +355,8 @@ public class FileUtils {
                 item.getLength() + "\n" +
                 item.getProductionCost() + "\n" +
                 item.getSellingPrice() + "\n" +
-                item.getDiscount().discountAmount() + "\n" +
-                "";
+                item.getDiscount().discountAmount() + "\n"
+                + "3";
     }
 
 
