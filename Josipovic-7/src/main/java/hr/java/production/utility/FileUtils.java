@@ -205,9 +205,13 @@ public class FileUtils {
 
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path.getPath()))) {
             deserializedList.addAll((List<T>) ois.readObject());
+        } catch (EOFException e) {
+            logger.warn("Reached end of file or file is empty: " + path.getPath());
+            return new ArrayList<>();
         } catch (FileNotFoundException e) {
             String msg = "File not found at the specified location: " + path.getPath() + ". Please check the file path and ensure the file exists.";
             logger.error(msg, e);
+            return new ArrayList<>();
         } catch (IOException e) {
             String msg = "SERIALIZATION ERROR: An IO Exception occurred while reading from the file: " + path.getPath() + ". This might be due to issues with file permissions, file being in use, or other IO related problems.";
             logger.error(msg, e);
@@ -216,6 +220,7 @@ public class FileUtils {
         }
         return deserializedList;
     }
+
 
 
     private static Set<Item> processItemChoices(String itemChoices, List<Item> items) {
@@ -359,6 +364,31 @@ public class FileUtils {
                 + "3";
     }
 
+    public static void saveCategory(Category newCategory) {
+        List<Category> categories = deserializeList(FilePath.NEW_CATEGORIES_FILE_PATH);
+        categories.add(newCategory);
+
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FilePath.NEW_CATEGORIES_FILE_PATH.getPath()))) {
+            oos.writeObject(categories);
+        } catch (IOException e) {
+            String msg = "An IO Exception occurred while writing to the file: " + FilePath.NEW_CATEGORIES_FILE_PATH + ". This might be due to issues with file permissions, file being in use, or other IO related problems.";
+            logger.error(msg, e);
+        }
+    }
+
+    public static void appendCategoryToFile(Category category) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FilePath.CATEGORIES.getPath(), true))) {
+            writer.write(formatCategoryForFile(category));
+            writer.newLine();
+        } catch (IOException e) {
+            String msg = "An IO Exception occurred while writing to the file: " + FilePath.CATEGORIES + ". This might be due to issues with file permissions, file being in use, or other IO related problems.";
+            logger.error(msg, e);
+        }
+    }
+
+    private static String formatCategoryForFile(Category category) {
+        return category.getId() + "\n" + category.getName() + "\n" + category.getDescription();
+    }
 
 
 }

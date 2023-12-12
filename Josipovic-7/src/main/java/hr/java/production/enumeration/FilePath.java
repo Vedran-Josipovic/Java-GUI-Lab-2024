@@ -8,7 +8,8 @@ public enum FilePath {
     STORES("src/main/dat/input/stores.txt"),
     SERIALIZED_FACTORIES("src/main/dat/serialized-objects/serialized-factories.txt"),
     SERIALIZED_STORES("src/main/dat/serialized-objects/serialized-stores.txt"),
-    NEW_ITEMS_FILE_PATH ("src/main/dat/user-input/user-added-items.txt");
+    NEW_ITEMS_FILE_PATH("src/main/dat/user-input/user-added-items.txt"),
+    NEW_CATEGORIES_FILE_PATH("src/main/dat/user-input/user-added-categories.txt");
 
     private final String path;
 
