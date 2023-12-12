@@ -413,4 +413,31 @@ public class FileUtils {
     }
 
 
+    public static void saveStore(Store newStore) {
+        List<Store> stores = deserializeList(FilePath.NEW_STORES_FILE_PATH);
+        stores.add(newStore);
+
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FilePath.NEW_STORES_FILE_PATH.getPath()))) {
+            oos.writeObject(stores);
+        } catch (IOException e) {
+            logger.error("An IO Exception occurred while writing to the store file", e);
+        }
+    }
+
+    public static void appendStoreToFile(Store store) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FilePath.STORES.getPath(), true))) {
+            writer.write(formatStoreForFile(store));
+            writer.newLine();
+        } catch (IOException e) {
+            logger.error("An IO Exception occurred while appending to the store file", e);
+        }
+    }
+
+    private static String formatStoreForFile(Store store) {
+        String itemIds = store.getItems().stream()
+                .map(item -> item.getId().toString())
+                .collect(Collectors.joining(","));
+        return store.getId() + "\n" + store.getName() + "\n" + store.getWebAddress() + "\n" + itemIds + "\n3";
+    }
+
 }
