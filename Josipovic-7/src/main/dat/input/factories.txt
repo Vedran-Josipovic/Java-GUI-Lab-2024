@@ -6,3 +6,11 @@ Shenzhen Electronics Ltd.
 Cekin d.o.o.
 2
 4,5,7,9,11,13,15
+909
+Sony factory
+1
+12,909
+505
+Rockstar games factory
+2
+4,3

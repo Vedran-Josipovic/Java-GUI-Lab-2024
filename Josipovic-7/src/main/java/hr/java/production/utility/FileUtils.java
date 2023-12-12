@@ -222,7 +222,6 @@ public class FileUtils {
     }
 
 
-
     private static Set<Item> processItemChoices(String itemChoices, List<Item> items) {
         Set<Item> chosenItems = new HashSet<>();
         Set<Long> addedItemIds = new HashSet<>();
@@ -271,7 +270,7 @@ public class FileUtils {
         };
     }
 
-    private static List<Address> inputAddresses() {
+    public static List<Address> inputAddresses() {
         List<Address> addresses = new ArrayList<>();
         File file = new File(FilePath.ADDRESSES.getPath());
 
@@ -352,16 +351,7 @@ public class FileUtils {
     }
 
     private static String formatItemForFile(Item item) {
-        return item.getId() + "\n" +
-                item.getName() + "\n" +
-                item.getCategory().getId() + "\n" +
-                item.getWidth() + "\n" +
-                item.getHeight() + "\n" +
-                item.getLength() + "\n" +
-                item.getProductionCost() + "\n" +
-                item.getSellingPrice() + "\n" +
-                item.getDiscount().discountAmount() + "\n"
-                + "3";
+        return item.getId() + "\n" + item.getName() + "\n" + item.getCategory().getId() + "\n" + item.getWidth() + "\n" + item.getHeight() + "\n" + item.getLength() + "\n" + item.getProductionCost() + "\n" + item.getSellingPrice() + "\n" + item.getDiscount().discountAmount() + "\n" + "3";
     }
 
     public static void saveCategory(Category newCategory) {
@@ -388,6 +378,38 @@ public class FileUtils {
 
     private static String formatCategoryForFile(Category category) {
         return category.getId() + "\n" + category.getName() + "\n" + category.getDescription();
+    }
+
+    public static void saveFactory(Factory newFactory) {
+        List<Factory> factories = deserializeList(FilePath.NEW_FACTORIES_FILE_PATH);
+        factories.add(newFactory);
+
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(FilePath.NEW_FACTORIES_FILE_PATH.getPath()))) {
+            oos.writeObject(factories);
+        } catch (IOException e) {
+            logger.error("Error saving factory", e);
+        }
+    }
+
+    public static void appendFactoryToFile(Factory factory) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(FilePath.FACTORIES.getPath(), true))) {
+            writer.write(formatFactoryForFile(factory));
+            writer.newLine();
+        } catch (IOException e) {
+            logger.error("Error appending factory to file", e);
+        }
+    }
+
+    private static String formatFactoryForFile(Factory factory) {
+        String itemIds = factory.getItems().stream().map(item -> item.getId().toString()).collect(Collectors.joining(","));
+
+        if (factory.getAddress().getCity().equals(Cities.VELIKA_GORICA)) {
+            return factory.getId() + "\n" + factory.getName() + "\n" + "1" + "\n" + itemIds;
+        } else {
+            return factory.getId() + "\n" + factory.getName() + "\n" + "2" + "\n" + itemIds;
+        }
+
+
     }
 
 
