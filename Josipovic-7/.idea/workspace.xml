@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e97ffe9-bdaa-486a-bc1d-f2e06d8e33d9" name="Changes" comment="Implemented store adding to gui">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/logs/pogreske.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/logs/pogreske.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YxY76mSdSXTXdhGqnbVEUFuyt1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vedran/Downloads/CarsJavaFxApp (1)/CarsJavaFxApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.indent&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vedran\Desktop\Java - LABOSI 2024\Josipovic-7\src\main\java" />
+      <recent name="C:\Users\Vedran\Desktop\Java - LABOSI 2024\Josipovic-7\src\main\resources" />
+      <recent name="C:\Users\Vedran\Desktop\Java - LABOSI 2024\Josipovic-7\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hr.javafx.production.controller" />
+      <recent name="hr.javafx.production" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e97ffe9-bdaa-486a-bc1d-f2e06d8e33d9" name="Changes" comment="" />
+      <created>1701468530099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701468530099</updated>
+      <workItem from="1701468531192" duration="636000" />
+      <workItem from="1701469780614" duration="132000" />
+      <workItem from="1701470015487" duration="32000" />
+      <workItem from="1701507103891" duration="9543000" />
+      <workItem from="1701544108056" duration="7292000" />
+      <workItem from="1701595975522" duration="9609000" />
+      <workItem from="1701635256557" duration="134000" />
+      <workItem from="1701723157971" duration="634000" />
+      <workItem from="1701724536641" duration="3362000" />
+      <workItem from="1702321239672" duration="11876000" />
+      <workItem from="1702375662024" duration="7703000" />
+      <workItem from="1702726826326" duration="4747000" />
+      <workItem from="1702740986998" duration="158000" />
+      <workItem from="1702741511838" duration="44000" />
+    </task>
+    <task id="LOCAL−00001" summary="Started LAB-7">
+      <option name="closed" value="true" />
+      <created>1701469898379</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1701469898379</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Configured itemSearch and menuBar screens.">
+      <option name="closed" value="true" />
+      <created>1701534451293</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1701534451293</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Connected ItemSearchController to itemSearch.fxml">
+      <option name="closed" value="true" />
+      <created>1701537171171</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1701537171171</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Added search option to menuBar.fxml for itemSearch.fxml.">
+      <option name="closed" value="true" />
+      <created>1701538448715</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1701538448715</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Initialized items in ItemSearchController">
+      <option name="closed" value="true" />
+      <created>1701545267059</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1701545267059</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Added search and filtering functionality to ItemSearchController">
+      <option name="closed" value="true" />
+      <created>1701551375147</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1701551375147</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Added search and filtering functionality to CategorySearchController">
+      <option name="closed" value="true" />
+      <created>1701627339846</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1701627339846</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Added search and filtering functionality to FactorySearchController">
+      <option name="closed" value="true" />
+      <created>1701630700076</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1701630700076</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Finished Lab-7">
+      <option name="closed" value="true" />
+      <created>1701635132598</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1701635132598</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Added extra functionality">
+      <option name="closed" value="true" />
+      <created>1701727781112</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1701727781112</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Implemented new screens for adding entities.">
+      <option name="closed" value="true" />
+      <created>1702324217323</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1702324217323</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Implemented adding items to files from GUI">
+      <option name="closed" value="true" />
+      <created>1702330722977</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1702330722977</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Implemented item validation to GUI input">
+      <option name="closed" value="true" />
+      <created>1702333665204</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1702333665204</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Implemented category adding to gui">
+      <option name="closed" value="true" />
+      <created>1702378445595</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1702378445595</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Implemented factory adding to gui">
+      <option name="closed" value="true" />
+      <created>1702386438193</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1702386438193</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Implemented store adding to gui">
+      <option name="closed" value="true" />
+      <created>1702387883414</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1702387883414</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started LAB-7" />
+    <MESSAGE value="Configured itemSearch and menuBar screens." />
+    <MESSAGE value="Connected ItemSearchController to itemSearch.fxml" />
+    <MESSAGE value="Added search option to menuBar.fxml for itemSearch.fxml." />
+    <MESSAGE value="Initialized items in ItemSearchController" />
+    <MESSAGE value="Added search and filtering functionality to ItemSearchController" />
+    <MESSAGE value="Added search and filtering functionality to CategorySearchController" />
+    <MESSAGE value="Added search and filtering functionality to FactorySearchController" />
+    <MESSAGE value="Finished Lab-7" />
+    <MESSAGE value="Added extra functionality" />
+    <MESSAGE value="Implemented new screens for adding entities." />
+    <MESSAGE value="Implemented adding items to files from GUI" />
+    <MESSAGE value="Implemented item validation to GUI input" />
+    <MESSAGE value="Implemented category adding to gui" />
+    <MESSAGE value="Implemented factory adding to gui" />
+    <MESSAGE value="Implemented store adding to gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented store adding to gui" />
+  </component>
+</project>
