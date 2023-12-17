@@ -10,9 +10,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Utility class for finding objects with specific properties.
+ * Utility class for finding objects with specific database.properties.
  * <p>
- * This class provides static methods for finding objects such as factories, stores, and items with specific properties.
+ * This class provides static methods for finding objects such as factories, stores, and items with specific database.properties.
  * It uses a {@code Logger} object to log errors and information.
  */
 public class InventoryAnalyzer {
