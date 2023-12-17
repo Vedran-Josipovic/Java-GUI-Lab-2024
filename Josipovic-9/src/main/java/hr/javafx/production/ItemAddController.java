@@ -5,6 +5,7 @@ import hr.java.production.exception.ValidationException;
 import hr.java.production.model.Category;
 import hr.java.production.model.Discount;
 import hr.java.production.model.Item;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -35,7 +36,7 @@ public class ItemAddController {
 
     @FXML
     public void initialize() {
-        itemCategoryComboBox.setItems(FXCollections.observableArrayList(FileUtils.inputCategories()));
+        itemCategoryComboBox.setItems(FXCollections.observableArrayList(DatabaseUtils.getCategories()));
     }
 
     public void saveItem() {

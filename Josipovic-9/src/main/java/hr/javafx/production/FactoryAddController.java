@@ -4,6 +4,7 @@ import hr.java.production.exception.ValidationException;
 import hr.java.production.model.Address;
 import hr.java.production.model.Factory;
 import hr.java.production.model.Item;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -50,7 +51,7 @@ public class FactoryAddController {
             }
         });
 
-        itemListView.setItems(FXCollections.observableArrayList(FileUtils.inputItems(FileUtils.inputCategories())));
+        itemListView.setItems(FXCollections.observableArrayList(FileUtils.inputItems(DatabaseUtils.getCategories())));
         itemListView.setCellFactory(param -> new ComboBoxListCell<>() {
             @Override
             public void updateItem(Item item, boolean empty) {

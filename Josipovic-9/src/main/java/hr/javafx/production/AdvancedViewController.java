@@ -3,6 +3,7 @@ package hr.javafx.production;
 import hr.java.production.model.Factory;
 import hr.java.production.model.Item;
 import hr.java.production.model.Store;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
@@ -52,7 +53,7 @@ public class AdvancedViewController {
     }
 
     private void filterFactoriesByItem(Item selectedItem) {
-        List<Factory> allFactories = FileUtils.inputFactories(FileUtils.inputItems(FileUtils.inputCategories()));
+        List<Factory> allFactories = FileUtils.inputFactories(FileUtils.inputItems(DatabaseUtils.getCategories()));
         List<Factory> filteredFactories = allFactories.stream()
                 .filter(factory -> factory.getItems().contains(selectedItem))
                 .collect(Collectors.toList());
@@ -61,7 +62,7 @@ public class AdvancedViewController {
     }
 
     private void filterStoresByItem(Item selectedItem) {
-        List<Store> allStores = FileUtils.inputStores(FileUtils.inputItems(FileUtils.inputCategories()));
+        List<Store> allStores = FileUtils.inputStores(FileUtils.inputItems(DatabaseUtils.getCategories()));
         List<Store> filteredStores = allStores.stream()
                 .filter(store -> store.getItems().contains(selectedItem))
                 .collect(Collectors.toList());
@@ -70,7 +71,7 @@ public class AdvancedViewController {
     }
 
     public void itemSearch() {
-        List<Item> items = FileUtils.inputItems(FileUtils.inputCategories());
+        List<Item> items = FileUtils.inputItems(DatabaseUtils.getCategories());
         String itemName = itemNameTextField.getText();
 
         Stream<Item> filteredStream = items.stream();
@@ -81,7 +82,7 @@ public class AdvancedViewController {
     }
 
     public void factorySearch() {
-        List<Factory> factories = FileUtils.inputFactories(FileUtils.inputItems(FileUtils.inputCategories()));
+        List<Factory> factories = FileUtils.inputFactories(FileUtils.inputItems(DatabaseUtils.getCategories()));
         String factoryName = factoryNameTextField.getText().toLowerCase();
 
         Stream<Factory> filteredStream = factories.stream()
@@ -91,7 +92,7 @@ public class AdvancedViewController {
     }
 
     public void storeSearch() {
-        List<Store> stores = FileUtils.inputStores(FileUtils.inputItems(FileUtils.inputCategories()));
+        List<Store> stores = FileUtils.inputStores(FileUtils.inputItems(DatabaseUtils.getCategories()));
         String storeName = storeNameTextField.getText().toLowerCase();
 
         Stream<Store> filteredStream = stores.stream()

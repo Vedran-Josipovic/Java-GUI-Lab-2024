@@ -2,6 +2,7 @@ package hr.javafx.production;
 
 import hr.java.production.model.Category;
 import hr.java.production.model.Item;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
@@ -49,7 +50,7 @@ public class ItemSearchController {
         itemSellingPriceTableColumn.setCellValueFactory(param -> new ReadOnlyStringWrapper(param.getValue().getSellingPrice().toString()));
 
         Category allCategories = new Category(999L, "Any category", "Any");
-        List<Category> categories = FileUtils.inputCategories();
+        List<Category> categories = DatabaseUtils.getCategories();
         categories.add(allCategories);
         itemCategoryComboBox.setItems(FXCollections.observableArrayList(categories));
         itemCategoryComboBox.getSelectionModel().selectLast();
@@ -57,7 +58,7 @@ public class ItemSearchController {
 
 
     public void itemSearch() {
-        List<Category> categories = FileUtils.inputCategories();
+        List<Category> categories = DatabaseUtils.getCategories();
         List<Item> items = FileUtils.inputItems(categories);
 
         String itemName = itemNameTextField.getText();

@@ -2,6 +2,7 @@ package hr.java.production.main;
 
 import hr.java.production.enumeration.FilePath;
 import hr.java.production.model.*;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import hr.java.production.utility.InventoryAnalyzer;
 import hr.java.production.utility.InventoryReportPrinter;
@@ -19,7 +20,7 @@ public class Main {
     public static void main(String[] args) {
         logger.info("Aplikacija započela s radom.");
 
-        List<Category> categories = FileUtils.inputCategories();
+        List<Category> categories = DatabaseUtils.getCategories();
         List<Item> items = FileUtils.inputItems(categories);
         List<Factory> factories = FileUtils.inputFactories(items);
         List<Store> stores = FileUtils.inputStores(items);

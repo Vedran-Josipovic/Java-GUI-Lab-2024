@@ -3,6 +3,7 @@ package hr.javafx.production;
 import hr.java.production.model.Category;
 import hr.java.production.model.Factory;
 import hr.java.production.model.Item;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import hr.java.production.utility.InventoryAnalyzer;
 import javafx.beans.property.ReadOnlyStringWrapper;
@@ -41,7 +42,7 @@ public class FactorySearchController {
     }
 
     public void factorySearch() {
-        List<Category> categories = FileUtils.inputCategories();
+        List<Category> categories = DatabaseUtils.getCategories();
         List<Item> items = FileUtils.inputItems(categories);
         List<Factory> factories = FileUtils.inputFactories(items);
 
