@@ -22,6 +22,23 @@ public class DatabaseUtils {
         return DriverManager.getConnection(databaseUrl, username, password);
     }
 
+    public static void saveCategory(Category newCategory) {
+        try (Connection connection = connectToDatabase()) {
+            String insertCategorySql = "INSERT INTO CATEGORY(NAME, DESCRIPTION) " +
+                    "VALUES(?, ?);";
+            PreparedStatement preparedStatement = connection.prepareStatement(insertCategorySql);
+            //Broji se od 1
+            preparedStatement.setString(1, newCategory.getName());
+            preparedStatement.setString(2, newCategory.getDescription());
+            preparedStatement.execute();
+        } catch (SQLException | IOException ex) {
+            String message = "An error occurred while saving data to database!";
+            logger.error(message, ex);
+            System.out.println(message);
+        }
+
+    }
+
     public static List<Category> getCategories() {
         List<Category> categories = new ArrayList<>();
 
@@ -76,10 +93,9 @@ public class DatabaseUtils {
             PreparedStatement preparedStatement = connection.prepareStatement(baseSqlQuery.toString());
 
             for (Integer paramNumber : queryParams.keySet()) {
-                if(queryParams.get(paramNumber) instanceof String stringQueryParam){
+                if (queryParams.get(paramNumber) instanceof String stringQueryParam) {
                     preparedStatement.setString(paramNumber, stringQueryParam);
-                }
-                else if(queryParams.get(paramNumber) instanceof Long longQueryParam){
+                } else if (queryParams.get(paramNumber) instanceof Long longQueryParam) {
                     preparedStatement.setLong(paramNumber, longQueryParam);
                 }
             }
@@ -94,7 +110,6 @@ public class DatabaseUtils {
 
         return categories;
     }
-
 
 
 }

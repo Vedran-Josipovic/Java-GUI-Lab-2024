@@ -2,6 +2,7 @@ package hr.javafx.production;
 
 import hr.java.production.exception.ValidationException;
 import hr.java.production.model.Category;
+import hr.java.production.utility.DatabaseUtils;
 import hr.java.production.utility.FileUtils;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -24,7 +25,8 @@ public class CategoryAddController {
             String description = categoryDescriptionTextField.getText().trim();
 
             Category newCategory = new Category(id, name, description);
-            FileUtils.saveCategory(newCategory);
+            //FileUtils.saveCategory(newCategory);
+            DatabaseUtils.saveCategory(newCategory);
             FileUtils.appendCategoryToFile(newCategory);
             clearForm();
             showAlert(Alert.AlertType.INFORMATION, "Success", "Category added successfully.");
